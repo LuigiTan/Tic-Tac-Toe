@@ -44,17 +44,14 @@ int main()
 		}
 		cout << endl;
 	}
-
 	do
 	{
-
-	
+	do
+	{
 	cout << "Player 1, select a space where to place your 'X' " << endl;
 	Continue = false;
 	cin >> Player1;
-	do
-	{
-
+	
 	
 		switch (Player1)
 		{
@@ -183,11 +180,12 @@ int main()
 		cout << endl;
 	}
 	////////////////////Waiting for Player2 Input////////////////////
+	do
+	{
 	cout << "Now, Player 2, select a space where to place your 'O' " << endl;
 	Continue = false;
 	cin >> Player2;
-	do
-	{
+	
 
 		switch (Player2)
 		{
@@ -319,5 +317,5 @@ int main()
 	}
 
 
-	} while (Turns == false);
+	} while(Turns == false);
 }
